@@ -1,0 +1,7 @@
+
+# this is already considered in SETUP.SH
+
+sudo /etc/init.d/ntp stop
+sudo ntpd -qg
+sudo /etc/init.d/ntp start
+

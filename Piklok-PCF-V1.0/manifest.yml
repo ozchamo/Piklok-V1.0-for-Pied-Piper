@@ -1,0 +1,9 @@
+---
+applications:
+- name: piklok
+  memory: 256M
+  disk_quota: 1G
+  instances: 1
+  path: .
+  services:
+  - piklok
